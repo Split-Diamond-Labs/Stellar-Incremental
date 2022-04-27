@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Segoe UI", "Helvetica Neue", Arial;
+}
+
+p {
+  font-size: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+div.elements {
+  position: absolute;
+  border: 3px solid white;
+  border-radius: 10px;
+  width: calc(20% - 106px);
+  height: calc(100% - 106px);
+  top: 0;
+  left: 0;
+  padding: 50px;
+}
+
+div.star {
+  position: absolute;
+  border: 3px solid white;
+  border-radius: 10px;
+  width: calc(60% - 106px);
+  height: calc(50% - 106px);
+  top: 0;
+  left: 20%;
+  padding: 50px;
+}
+
+div.actions {
+  position: absolute;
+  border: 3px solid white;
+  border-radius: 10px;
+  width: calc(60% - 106px);
+  height: calc(50% - 106px);
+  top: 50%;
+  left: 20%;
+  padding: 50px;
+}
+
+div.achievements {
+  position: absolute;
+  border: 3px solid white;
+  border-radius: 10px;
+  width: calc(20% - 106px);
+  height: calc(100% - 106px);
+  top: 0;
+  left: 80%;
+  padding: 50px;
+}
+
